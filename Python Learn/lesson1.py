@@ -40,3 +40,58 @@ print(a * b)
 print(a / b)
 print(a % b)
 print(a ** b)
+
+a = 4
+b = 52
+# Manipulasi data (Comparison)
+print(a == b)
+print(a != b)
+
+print(a < b)
+print(a > b)
+
+print(a <= b)
+print(a >= b)
+
+# Manipulasi string dengan operator Matematika
+a = "Andi"
+
+print(a + ' Belum makan')
+print("Hai nama aku " + a)
+
+# Manipulasi String dengan operator In
+
+"A" in "Anjing"
+# Operator Khusus String
+
+b = "Saya suka belajar main game"
+print(b.upper())
+print(b.lower())
+
+
+# Python List
+kelas = []
+
+# dalam list di atas bida di isi banyak dipisah dengan ,
+kelas = ["anjay", "rahman", "keren"]
+print(kelas)
+print(kelas[0])
+#  murid pertama index ke 0
+kelas[1]
+# CRUD Create Read Update Delete
+kelas.append("Ryan")
+print(kelas)
+kelas.remove("rahman")
+kelas.append("RAHMAN")
+print(kelas[3])
+kelas[0] =  kelas[0].upper()
+print(kelas)
+
+# Index bisa menggunakan -1 
+# membuat tuple dengan ()
+nilai = ()
+print(type(nilai))
+print(kelas[2:4])
+# Dictionary menggunakan {}
+
+
